@@ -1,0 +1,36 @@
+﻿@using bGlobalChallgenge.Services
+@model System.Collections.Generic.IEnumerable<bGlobalChallgenge.Models.DTOs.Outputs.VehicleOutput>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Lista de vehiculos</h2>
+<div class="col-md-12">
+    <p>
+        @Html.ActionLink("Nuevo", "Create", new { }, new { @class = "btn btn-primary" })
+    </p>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>Titular</th>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Puertas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vehicle in Model)
+        {
+            <tr>
+                <td>@($"{vehicle.TitularFirstName} {vehicle.TitularLastName}")</td>
+                <td>@vehicle.Brand.Name</td>
+                <td>@vehicle.Model</td>
+                <td>@vehicle.Doors</td>
+            </tr>
+        }
+    </tbody>
+</table>
