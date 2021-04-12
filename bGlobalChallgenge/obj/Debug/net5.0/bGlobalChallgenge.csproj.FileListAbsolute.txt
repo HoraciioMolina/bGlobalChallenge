@@ -1154,7 +1154,6 @@ C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\bin\Debug\net5.0\runtimes\win-x86
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\obj\Debug\net5.0\bGlobalChallgenge.csprojAssemblyReference.cache
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\obj\Debug\net5.0\bGlobalChallgenge.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\obj\Debug\net5.0\bGlobalChallgenge.AssemblyInfoInputs.cache
 C:\Users\Horacio\Desktop\asd\bGlobalChallgenge\obj\Debug\net5.0\bGlobalChallgenge.AssemblyInfo.cs
